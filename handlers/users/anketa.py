@@ -120,13 +120,13 @@ async def answer_email(message: types.Message, state: FSMContext):
     await message.answer('Резюме')
     await ruPersonalData.next()
 
-@dp.message_handler(state=ruPersonalData.ruresume)
+@dp.message_handler(state=ruPersonalData.ruresume, content_types=types.ContentType.DOCUMENT)
 async def answer_phone(message: types.Message, state: FSMContext):
-    ruresume = message.text
+    ruresume = message.document
 
     await state.update_data(
         {
-            'Резюме': ruresume
+            'Резюме': ruresume.file_name
         }
         )
     
@@ -197,13 +197,13 @@ async def answer_email(message: types.Message, state: FSMContext):
     await message.answer('Resume')
     await engPersonalData.next()
 
-@dp.message_handler(state=engPersonalData.engresume)
+@dp.message_handler(state=engPersonalData.engresume, content_types=types.ContentType.DOCUMENT)
 async def answer_phone(message: types.Message, state: FSMContext):
-    engresume = message.text
+    engresume = message.document
 
     await state.update_data(
         {
-            'resume': engresume
+            'resume': engresume.file_name
         }
         )
     

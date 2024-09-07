@@ -39,20 +39,20 @@ async def select_category(call: CallbackQuery):
 @dp.callback_query_handler(text="uzabout")
 async def select_category(call: CallbackQuery):
     await call.message.delete()
-    photo_file = InputFile(path_or_bytesio='c:/Users/user/Downloads/TRp.jpg')
+    photo_file = InputFile(path_or_bytesio='c:/Users/user/Downloads/Trp.jpg')
     await call.message.answer_photo(photo_file,'Tramplin!',reply_markup=uzmainMenu)
 
 @dp.callback_query_handler(text='ruabout')
 async def select_category(call: CallbackQuery):
     await call.message.delete()
-    photo_file = InputFile(path_or_bytesio='c:/Users/user/Downloads/TRp.jpg')
+    photo_file = InputFile(path_or_bytesio='c:/Users/user/Downloads/Trp.jpg')
     await call.message.answer_photo(photo_file,'Tramplin!',reply_markup=rumainMenu)
 
 
 @dp.callback_query_handler(text='engabout')
 async def select_category(call: CallbackQuery):
     await call.message.delete()
-    photo_file = InputFile(path_or_bytesio='c:/Users/user/Downloads/TRp.jpg')
+    photo_file = InputFile(path_or_bytesio='c:/Users/user/Downloads/Trp.jpg')
     await call.message.answer_photo(photo_file,'Tramplin!',reply_markup=engmainMenu)
 
     
@@ -60,19 +60,19 @@ async def select_category(call: CallbackQuery):
 @dp.callback_query_handler(text="uzmenu")
 async def select_category(call: CallbackQuery):
     await call.message.delete()
-    photo_file = InputFile(path_or_bytesio='c:/Users/user/Downloads/TRp.jpg')
+    photo_file = InputFile(path_or_bytesio='c:/Users/user/Downloads/Trp.jpg')
     await call.message.answer_photo(photo_file,'Tramplin!',reply_markup=uzcategoryMenu)
 
 @dp.callback_query_handler(text="rumenu")
 async def select_category(call: CallbackQuery):
     await call.message.delete()
-    photo_file = InputFile(path_or_bytesio='c:/Users/user/Downloads/TRp.jpg')
+    photo_file = InputFile(path_or_bytesio='c:/Users/user/Downloads/Trp.jpg')
     await call.message.answer_photo(photo_file,'Tramplin!',reply_markup=rucategoryMenu)
 
 @dp.callback_query_handler(text="engmenu")
 async def select_category(call: CallbackQuery):
     await call.message.delete()
-    photo_file = InputFile(path_or_bytesio='c:/Users/user/Downloads/TRp.jpg')
+    photo_file = InputFile(path_or_bytesio='c:/Users/user/Downloads/Trp.jpg')
     await call.message.answer_photo(photo_file,'Tramplin!',reply_markup=engcategoryMenu)
 
 @dp.callback_query_handler(text='uzkurslar')
@@ -316,13 +316,13 @@ async def select_category(call: CallbackQuery):
 async def select_category(call: CallbackQuery):
     await call.message.delete()
     photo_file = InputFile(path_or_bytesio='photo/otb.jpg')
-    msg = '<b>Name:</b>\nOtadjon Bozorboev'
-    msg += "<b>God i mesto birthday:</b>\nJanuary 8, 1999;\nDzhizakskaya oblast, city of Dzhizak\n"
-    msg += "<b>Obrazovanie:</b>\nTashkent Professional College of Road Transport (2018)\n"
-    msg += "<b>Opyt raboty:</b>\n"
-    msg += """"-AO "Uzbekiston temir yullari" organization Dzhizakskaya zheletnaya doroga rukovoditel otdela kadrov (HR)(2018-2023);\n-Astro Education Python Backend Mentor(2023-2024) );Tramplin IT Academy Backend Developer Python Backend Mentor (2024)\n"""
-    msg += "<b>Technicheskie navyki:</b>\nC, Python, Django, Django Rest, SQLite, MySQL, PostgreSQL, Git, GitHub, HTML, CSS, Java Script, Telegram Bot, Microsoft Office (Word, Excel ), Power Point, Paint etc.)\n"
-    msg += "<b>Language:</b>\nUzbek language(Rodnoy language);\nEnglish language(B2);\nArabic language(Obuchenie);\nJapanese language(N3)"
+    msg = '<b>Name:</b>\nOtajon Bozorboyev'
+    msg += "<b>Year and place of birth:</b>\nJanuary 8, 1999;\nJizzakh region, city of Jizzakh\n"
+    msg += "<b>Education:</b>\nTashkent Railway Transport Vocational College (2018)\n"
+    msg += "<b>Work experience:</b>\n"
+    msg += """"-Uzbekiston temir yollari" JSC organization Jizzakh railway distance personnel department supervisor (HR)(2018-2023);\n-Astro Education Python Backend Mentor(2023-2024) );Tramplin IT Academy Backend Developer and Pythin Backend Mentor (2024 to present)\n"""
+    msg += "<b>Technical Skills:</b>\nC, Python, Django, Django Rest, SQLite, MySQL, PostgreSQL, Git, GitHub, HTML, CSS, Java Script, Telegram Bot, Microsoft Office (Word , Excel, Power Point, Paint, etc.)\n"
+    msg += "<b>Languages:</b>\nUzbek language(Native language);\nEnglish language(B2);\nArabic language(Learning);\nJapanese language(N3)"
     await call.message.answer_photo(photo=photo_file,caption=msg, reply_markup=engBack_to_xodimlar)
 
 
@@ -364,13 +364,13 @@ async def select_category(call: CallbackQuery):
 async def select_category(call: CallbackQuery):
     await call.message.delete()
     photo_file = InputFile(path_or_bytesio='photo/otb.jpg')
-    msg = '<b>Name:</b>\nOtadjon Bozorboev'
-    msg += "<b>God i mesto birthday:</b>\nJanuary 8, 1999;\nDzhizakskaya oblast, city of Dzhizak\n"
-    msg += "<b>Obrazovanie:</b>\nTashkent Professional College of Road Transport (2018)\n"
-    msg += "<b>Opyt raboty:</b>\n"
-    msg += """"-AO "Uzbekiston temir yullari" organization Dzhizakskaya zheletnaya doroga rukovoditel otdela kadrov (HR)(2018-2023);\n-Astro Education Python Backend Mentor(2023-2024) );Tramplin IT Academy Backend Developer Python Backend Mentor (2024)\n"""
-    msg += "<b>Technicheskie navyki:</b>\nC, Python, Django, Django Rest, SQLite, MySQL, PostgreSQL, Git, GitHub, HTML, CSS, Java Script, Telegram Bot, Microsoft Office (Word, Excel ), Power Point, Paint etc.)\n"
-    msg += "<b>Language:</b>\nUzbek language(Rodnoy language);\nEnglish language(B2);\nArabic language(Obuchenie);\nJapanese language(N3)"
+    msg = '<b>Name:</b>\nOtajon Bozorboyev'
+    msg += "<b>Year and place of birth:</b>\nJanuary 8, 1999;\nJizzakh region, city of Jizzakh\n"
+    msg += "<b>Education:</b>\nTashkent Railway Transport Vocational College (2018)\n"
+    msg += "<b>Work experience:</b>\n"
+    msg += """"-Uzbekiston temir yollari" JSC organization Jizzakh railway distance personnel department supervisor (HR)(2018-2023);\n-Astro Education Python Backend Mentor(2023-2024) );Tramplin IT Academy Backend Developer and Pythin Backend Mentor (2024 to present)\n"""
+    msg += "<b>Technical Skills:</b>\nC, Python, Django, Django Rest, SQLite, MySQL, PostgreSQL, Git, GitHub, HTML, CSS, Java Script, Telegram Bot, Microsoft Office (Word , Excel, Power Point, Paint, etc.)\n"
+    msg += "<b>Languages:</b>\nUzbek language(Native language);\nEnglish language(B2);\nArabic language(Learning);\nJapanese language(N3)"
     await call.message.answer_photo(photo=photo_file,caption=msg, reply_markup=engBack_to_xodimlar)
 
 
@@ -409,11 +409,11 @@ async def select_category(call: CallbackQuery):
 async def select_category(call: CallbackQuery):
     await call.message.delete()
     photo_file = InputFile(path_or_bytesio='photo/otb.jpg')
-    msg = '<b>Name:</b>\nOtadjon Bozorboev'
-    msg += "<b>God i mesto birthday:</b>\nJanuary 8, 1999;\nDzhizakskaya oblast, city of Dzhizak\n"
-    msg += "<b>Obrazovanie:</b>\nTashkent Professional College of Road Transport (2018)\n"
-    msg += "<b>Opyt raboty:</b>\n"
-    msg += """"-AO "Uzbekiston temir yullari" organization Dzhizakskaya zheletnaya doroga rukovoditel otdela kadrov (HR)(2018-2023);\n-Astro Education Python Backend Mentor(2023-2024) );Tramplin IT Academy Backend Developer Python Backend Mentor (2024)\n"""
-    msg += "<b>Technicheskie navyki:</b>\nC, Python, Django, Django Rest, SQLite, MySQL, PostgreSQL, Git, GitHub, HTML, CSS, Java Script, Telegram Bot, Microsoft Office (Word, Excel ), Power Point, Paint etc.)\n"
-    msg += "<b>Language:</b>\nUzbek language(Rodnoy language);\nEnglish language(B2);\nArabic language(Obuchenie);\nJapanese language(N3)"
+    msg = '<b>Name:</b>\nOtajon Bozorboyev'
+    msg += "<b>Year and place of birth:</b>\nJanuary 8, 1999;\nJizzakh region, city of Jizzakh\n"
+    msg += "<b>Education:</b>\nTashkent Railway Transport Vocational College (2018)\n"
+    msg += "<b>Work experience:</b>\n"
+    msg += """"-Uzbekiston temir yollari" JSC organization Jizzakh railway distance personnel department supervisor (HR)(2018-2023);\n-Astro Education Python Backend Mentor(2023-2024) );Tramplin IT Academy Backend Developer and Pythin Backend Mentor (2024 to present)\n"""
+    msg += "<b>Technical Skills:</b>\nC, Python, Django, Django Rest, SQLite, MySQL, PostgreSQL, Git, GitHub, HTML, CSS, Java Script, Telegram Bot, Microsoft Office (Word , Excel, Power Point, Paint, etc.)\n"
+    msg += "<b>Languages:</b>\nUzbek language(Native language);\nEnglish language(B2);\nArabic language(Learning);\nJapanese language(N3)"
     await call.message.answer_photo(photo=photo_file,caption=msg, reply_markup=engBack_to_xodimlar)
